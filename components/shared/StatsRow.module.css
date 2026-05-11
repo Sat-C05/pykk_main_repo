@@ -25,27 +25,26 @@
 
 .value {
   font-family: var(--font-heading), sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 64px;
-  letter-spacing: 0;
-  color: #FFFFFF;
+  color: var(--primary);
   line-height: 1.0;
 }
 
 .label {
   font-family: var(--font-heading), sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  color: var(--primary);
-  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-top: 12px;
 }
 
 .description {
   font-family: var(--font-body), sans-serif;
-  font-size: 15px;
-  color: var(--color-text-muted);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
   margin-top: 8px;
   line-height: 1.5;
 }

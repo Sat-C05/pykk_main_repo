@@ -1,0 +1,128 @@
+.section {
+  padding: 100px 0;
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.headline {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  color: var(--color-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+}
+
+.intro {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--color-text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.tableWrapper {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.table th {
+  background-color: var(--color-dark);
+  color: white;
+  text-align: left;
+  padding: 16px 24px;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+}
+
+.table td {
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--color-section-alt);
+}
+
+.addonName {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-dark);
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.addonDesc {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.footerMuted {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+
+  .table tr {
+    display: block;
+    padding: 24px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .table td {
+    display: block;
+    padding: 0;
+    border: none;
+    width: 100%;
+  }
+
+  .addonName {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+}

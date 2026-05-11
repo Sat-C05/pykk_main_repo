@@ -22,7 +22,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = ({
 
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={`${styles.container} reveal`}>
         <div className={styles.header}>
           <h2 className={styles.headline}>{headline}</h2>
           <p className={styles.intro}>{intro}</p>

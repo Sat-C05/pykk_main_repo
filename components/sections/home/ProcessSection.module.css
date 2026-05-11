@@ -13,11 +13,10 @@
 .headline {
   font-family: var(--font-heading), sans-serif;
   font-weight: 600;
-  font-size: 36px;
+  font-size: clamp(32px, 5vw, 42px);
   color: var(--color-text-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 56px;
+  letter-spacing: -0.01em;
+  margin-bottom: 64px;
   text-align: center;
 }
 
@@ -42,10 +41,10 @@
 }
 
 .circle {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   background-color: white;
-  border: 1px solid #E8E9EA;
+  border: 1px solid var(--color-border);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -53,6 +52,7 @@
   margin: 0 auto;
   z-index: 2;
   flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
 }
 
 .number {
@@ -81,9 +81,9 @@
 .title {
   font-family: var(--font-heading), sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
   color: var(--color-text-primary);
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
 }
 
 .description {

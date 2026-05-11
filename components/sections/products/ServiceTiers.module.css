@@ -1,0 +1,196 @@
+.section {
+  padding: 80px 0;
+  background-color: var(--color-base);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  padding: 32px;
+  transition: all 0.2s ease;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border-color: var(--color-accent);
+}
+
+.expanded {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-dark); /* More formal dark border */
+}
+
+.collapsedContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+}
+
+.oneLine {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 32px;
+  min-height: 48px;
+}
+
+.expandButton {
+  background: transparent;
+  border: none;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1.5px solid var(--color-accent);
+  padding-bottom: 4px;
+  width: fit-content;
+}
+
+.expandButton:hover {
+  color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.expandedContent {
+  margin-top: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-border);
+  margin-bottom: 24px;
+}
+
+.expandedHeadline {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  color: var(--color-dark);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.includesList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  flex-grow: 1;
+}
+
+.includesList li {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.check {
+  color: #10B981;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.bottomSection {
+  margin-top: auto;
+}
+
+.bestFor {
+  margin-bottom: 32px;
+  padding: 16px;
+  background: var(--color-section-alt);
+  border-radius: 2px;
+}
+
+.bestFor strong {
+  display: block;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--color-dark);
+  margin-bottom: 8px;
+}
+
+.bestFor p {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--color-text-muted);
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.footerMuted {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

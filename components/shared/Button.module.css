@@ -2,18 +2,18 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 13px 32px;
+  padding: 14px 34px;
   border-radius: 3px;
   font-family: var(--font-body), sans-serif;
   font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.05em;
+  font-size: 15px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
   text-decoration: none;
   outline: none;
-  border: 1.5px solid transparent; /* default for standard buttons */
+  border: 1.5px solid transparent;
 }
 
 .fullWidth {

@@ -10,7 +10,7 @@ interface ProcessSectionProps {
 const ProcessSection: React.FC<ProcessSectionProps> = ({ headline, steps }) => {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={`${styles.container} reveal`}>
         <h2 className={styles.headline}>{headline}</h2>
         <div className={styles.stepsGrid}>
           {steps.map((step, index) => (

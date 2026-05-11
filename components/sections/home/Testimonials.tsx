@@ -10,7 +10,7 @@ interface TestimonialsProps {
 const Testimonials: React.FC<TestimonialsProps> = ({ headline, testimonials }) => {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={`${styles.container} reveal`}>
         <h2 className={styles.headline}>{headline}</h2>
         <div className={styles.grid}>
           {testimonials.map((testimonial, index) => (

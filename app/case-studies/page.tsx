@@ -1,19 +1,19 @@
 import HeroInner from '@/components/shared/HeroInner';
-import GalleryGrid from '@/components/sections/gallery/GalleryGrid';
+import PricingTable from '@/components/sections/pricing/PricingTable';
 import CtaBand from '@/components/shared/CtaBand';
 import { siteContent } from '@/data/siteContent';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Case Studies | PYKK',
-  description: 'Real-world examples of how PYKK has helped SMBs optimize operations and productize knowledge.',
+  title: 'Service Add-ons & Details | PYKK',
+  description: 'Explore the full range of supplementary services and professional deliverables provided by PYKK.',
 };
 
-export default function GalleryPage() {
+export default function PricingPage() {
   return (
     <main>
       <HeroInner {...siteContent.galleryHero} />
-      <GalleryGrid images={siteContent.galleryImages} />
+      <PricingTable />
       <CtaBand {...siteContent.galleryCta} />
     </main>
   );

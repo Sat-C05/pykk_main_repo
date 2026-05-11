@@ -18,7 +18,7 @@ const CtaBand: React.FC<CtaBandProps> = ({
   return (
     <section className={styles.ctaBand}>
       <div className={styles.container}>
-        <div className={styles.content}>
+        <div className={`${styles.content} reveal`}>
           <h2 className={styles.headline}>{headline}</h2>
           <p className={styles.subline}>{subline}</p>
           <div className={styles.buttonGroup}>

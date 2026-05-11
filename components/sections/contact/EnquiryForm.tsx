@@ -43,9 +43,9 @@ const EnquiryForm: React.FC<EnquiryFormProps> = ({ whatsappNumber }) => {
       <section className={styles.section}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <h2 className={styles.headline}>Thank You!</h2>
+            <h2 className={styles.headline}>Thank You.</h2>
             <p className={styles.subline} style={{ fontSize: '1.25rem', color: 'var(--color-accent)', fontWeight: 'bold' }}>
-              Your inquiry has been submitted. Reference: {reference}
+              Your inquiry reference is {reference}.
             </p>
             <p className={styles.mutedText} style={{ marginTop: '1rem', fontSize: '1.125rem' }}>
               We will contact you within 24 hours.
@@ -71,12 +71,16 @@ const EnquiryForm: React.FC<EnquiryFormProps> = ({ whatsappNumber }) => {
               <input type="text" id="name" name="name" required value={formData.name} onChange={handleChange} />
             </div>
             <div className={styles.field}>
-              <label htmlFor="email">Email Address*</label>
-              <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange} />
+              <label htmlFor="businessName">Business Name*</label>
+              <input type="text" id="businessName" name="businessName" required value={formData.businessName || ''} onChange={handleChange} />
             </div>
           </div>
 
           <div className={styles.row}>
+            <div className={styles.field}>
+              <label htmlFor="email">Email Address*</label>
+              <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange} />
+            </div>
             <div className={styles.field}>
               <label htmlFor="phone">Phone Number*</label>
               <input type="tel" id="phone" name="phone" required value={formData.phone} onChange={handleChange} />
@@ -84,7 +88,7 @@ const EnquiryForm: React.FC<EnquiryFormProps> = ({ whatsappNumber }) => {
           </div>
 
           <div className={styles.field}>
-            <label htmlFor="requirements">Your Requirements*</label>
+            <label htmlFor="requirements">What do you need?*</label>
             <textarea id="requirements" name="requirements" rows={5} required value={formData.requirements} onChange={handleChange}></textarea>
           </div>
 

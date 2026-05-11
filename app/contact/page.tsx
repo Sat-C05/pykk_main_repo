@@ -6,20 +6,25 @@ import { siteContent } from '@/data/siteContent';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact PYKK Consulting',
-  description: 'Reach out to PYKK for management consulting, operations optimization, and custom AI integration services in Hyderabad.',
+  title: 'Contact | PYKK',
+  description: 'Connect with PYKK for professional web development and process-driven digital solutions in Hyderabad.',
 };
 
 export default function ContactPage() {
   return (
     <main>
-      <HeroInner {...siteContent.contactHero} />
-      <ContactSection company={siteContent.company} />
+      <HeroInner 
+        badge="Contact Us"
+        headline="Ready to establish your authority?"
+        subline="Tell us what you need and we'll recommend the right tier for your business."
+        backgroundImage={siteContent.contactHero.backgroundImage}
+      />
       <EnquiryForm 
         whatsappNumber={siteContent.company.whatsapp} 
         products={siteContent.products} 
         materials={siteContent.materials} 
       />
+      <ContactSection company={siteContent.company} />
       <FaqSection faqs={siteContent.faqs} />
     </main>
   );

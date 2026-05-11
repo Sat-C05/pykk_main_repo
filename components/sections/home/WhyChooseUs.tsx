@@ -42,7 +42,7 @@ const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ headline, features }) => {
 
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={`${styles.container} reveal`}>
         <h2 className={styles.headline}>{headline}</h2>
         <div className={styles.grid}>
           {features.map((feature, index) => (

@@ -35,7 +35,7 @@ const HeroMain: React.FC<HeroMainProps> = ({
       />
       <div className={styles.overlay}></div>
       <div className={styles.container}>
-        <div className={styles.content}>
+        <div className={`${styles.content} reveal`}>
           <Badge text={badge} variant="accent" />
           <h1 className={styles.headline}>{headline}</h1>
           <p className={styles.subheadline}>{subheadline}</p>
