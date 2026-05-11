@@ -94,7 +94,7 @@ const ServiceTiers: React.FC = () => {
                     className={styles.expandButton} 
                     onClick={toggleAll}
                   >
-                    {allExpanded ? 'Hide All Details' : 'See What\'s Included'}
+                    {allExpanded ? 'Hide All Details' : 'See What&apos;s Included'}
                   </button>
                 </div>
 
@@ -134,7 +134,7 @@ const ServiceTiers: React.FC = () => {
 
         <div className={styles.footer}>
           <p className={styles.footerMuted}>
-            Not sure which tier fits your business? Tell us what you need and we'll recommend the right one.
+            Not sure which tier fits your business? Tell us what you need and we&apos;ll recommend the right one.
           </p>
           <div className={styles.footerButton}>
             <Button label="Talk to Us" href="/contact" variant="secondary" />

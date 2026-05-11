@@ -59,7 +59,7 @@ const Footer: React.FC<FooterProps> = ({ company, primaryNav, secondaryNav, what
           {/* Col 4: Call to Action */}
           <div className={styles.col}>
             <h4 className={styles.label}>GET IN TOUCH</h4>
-            <p className={styles.ctaText}>Let's discuss how we can build your knowledge capital.</p>
+            <p className={styles.ctaText}>Let&apos;s discuss how we can build your knowledge capital.</p>
             <div className={styles.footerActions}>
               <Button
                 label="WhatsApp Us"
