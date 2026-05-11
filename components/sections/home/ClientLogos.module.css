@@ -1,0 +1,59 @@
+.section {
+  background-color: #F8F9FA;
+  padding: 48px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.title {
+  display: none; 
+}
+
+.grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.grid::-webkit-scrollbar {
+  display: none;
+}
+
+.logoBox {
+  flex: 0 0 auto;
+  width: 140px;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.logoBox:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.logoText {
+  font-family: var(--font-body), sans-serif;
+  font-size: 11px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    justify-content: flex-start;
+  }
+}

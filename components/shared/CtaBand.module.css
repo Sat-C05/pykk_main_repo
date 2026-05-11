@@ -1,0 +1,65 @@
+.ctaBand {
+  background-color: var(--color-accent);
+  padding: 64px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.content {
+  text-align: center;
+}
+
+.headline {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.subline {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  opacity: 0.85;
+  margin-top: 16px;
+  line-height: 1.4;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+/* Custom override for secondary button in CtaBand per spec: white bg, accent text */
+.buttonGroup :global(.button.primary) {
+  background-color: white !important;
+  color: var(--color-accent) !important;
+  border-color: white !important;
+}
+
+.buttonGroup :global(.button.primary):hover {
+  background-color: #F8F9FA !important;
+  color: var(--color-accent-hover) !important;
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 32px;
+  }
+  
+  .buttonGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+}

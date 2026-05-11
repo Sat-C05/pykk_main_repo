@@ -1,0 +1,88 @@
+.statsRow {
+  background-color: var(--color-dark);
+  padding: 64px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statBlock {
+  flex: 1;
+  min-width: 250px;
+  padding: 0 40px;
+  text-align: left;
+  position: relative;
+}
+
+.value {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  line-height: 1.0;
+}
+
+.label {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--primary);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+.description {
+  font-family: var(--font-body), sans-serif;
+  font-size: 15px;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.divider {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  bottom: 10%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .statBlock:nth-child(even) .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 0;
+  }
+
+  .statBlock {
+    padding: 0 20px;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

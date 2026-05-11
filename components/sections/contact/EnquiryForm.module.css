@@ -1,0 +1,99 @@
+.section {
+  background-color: white;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.headline {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--color-text-primary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.subline {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+}
+
+.field input, .field select, .field textarea {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  font-family: var(--font-body), sans-serif;
+  font-size: 16px;
+  padding: 12px;
+  color: var(--color-text-primary);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.field input:focus, .field select:focus, .field textarea:focus {
+  border-color: var(--color-accent);
+}
+
+.submitRow {
+  margin-top: 12px;
+}
+
+.info {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(0,0,0,0.04);
+    text-align: center;
+}
+
+.mutedText {
+    font-family: var(--font-body), sans-serif;
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

@@ -1,0 +1,104 @@
+:root {
+  /* Colors */
+  --primary: #1E6FA8;
+  --primary-hover: #165682;
+  --dark: #1C2B3A;
+  --light-bg: #E8E9EA;
+  --border: var(--color-border);
+  --text-muted: var(--color-text-muted);
+  --white: #FFFFFF;
+
+  --color-base: #F4F5F6;
+  --color-section-alt: #E8E9EA;
+  --color-dark: #1C2B3A;
+  --color-darker: #0D1720;
+  --color-accent: #1E6FA8;
+  --color-accent-hover: #165682;
+  --color-accent-tint: #E5F0F7;
+  --color-text-primary: #1A1A2E;
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border);
+  --color-white: #FFFFFF;
+  --color-off-white: #FFFFFF;
+
+  /* Typography */
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-primary);
+  background-color: var(--color-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Standardized Utilities */
+.container-std {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (min-width: 1024px) {
+  .container-std { padding-left: 48px; padding-right: 48px; }
+}
+
+.section-std { padding: 96px 0; }
+.cta-std { padding: 80px 0; }
+
+.card-std {
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.03);
+  border-radius: 8px;
+  padding: 48px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-std:hover { 
+  box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+  transform: translateY(-8px);
+}
+
+.section-headline {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  color: var(--dark);
+  margin-bottom: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.section-intro {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-muted);
+  margin-bottom: 56px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+

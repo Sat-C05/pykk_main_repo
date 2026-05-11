@@ -1,0 +1,21 @@
+import React from 'react';
+import Button from '@/components/shared/Button';
+import styles from './not-found.module.css';
+
+export default function NotFound() {
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        <h1 className={styles.code}>404</h1>
+        <h2 className={styles.title}>Page Not Found</h2>
+        <p className={styles.message}>
+          The page you're looking for doesn't exist or has been moved.
+        </p>
+        <div className={styles.actions}>
+          <Button label="Go to Homepage" href="/" variant="primary" />
+          <Button label="Contact Us" href="/contact" variant="secondary" />
+        </div>
+      </div>
+    </div>
+  );
+}

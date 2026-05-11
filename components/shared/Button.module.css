@@ -1,0 +1,56 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 32px;
+  border-radius: 3px;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  border: 1.5px solid transparent; /* default for standard buttons */
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.primary {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.primary:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.secondary {
+  background: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.secondary:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.ghost:hover {
+  background: white;
+  border-color: white;
+  color: var(--color-text-primary);
+}
+

@@ -1,0 +1,95 @@
+.section {
+  background-color: var(--color-base);
+  padding: 80px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.03);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+  transform: translateY(-8px);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.badgeWrapper {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 1;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-text-primary);
+  letter-spacing: 0.02em;
+  padding: 24px 24px 0;
+}
+
+.description {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-text-muted);
+  padding: 8px 24px 0;
+  line-height: 1.5;
+}
+
+.enquire {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-accent);
+  text-decoration: none;
+  padding: 16px 24px 24px;
+  display: block;
+  margin-top: auto;
+}
+
+.enquire:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

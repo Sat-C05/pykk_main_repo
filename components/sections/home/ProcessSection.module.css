@@ -1,0 +1,132 @@
+.section {
+  background-color: #E8E9EA;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.headline {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.stepsGrid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.visual {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border: 1px solid #E8E9EA;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.number {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.line {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-border);
+  z-index: 1;
+}
+
+.content {
+  text-align: center;
+  padding: 0 16px;
+}
+
+.title {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-text-primary);
+  letter-spacing: 0.02em;
+}
+
+.description {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .stepsGrid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .stepItem {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .visual {
+    width: auto;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .line {
+    top: 48px;
+    left: 50%;
+    width: 1px;
+    height: calc(100% + 40px);
+  }
+
+  .content {
+    text-align: left;
+    padding: 0;
+    padding-top: 8px;
+  }
+
+  .circle {
+    margin: 0;
+  }
+}

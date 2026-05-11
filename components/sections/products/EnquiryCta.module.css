@@ -1,0 +1,39 @@
+.section {
+  background-color: #2E2A24;
+  padding: 64px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.headline {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  color: #F8F9FA;
+  text-transform: uppercase;
+}
+
+.subline {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-text-muted);
+  margin-top: 12px;
+  line-height: 1.4;
+}
+
+.actions {
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 32px;
+  }
+}
