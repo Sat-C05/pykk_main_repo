@@ -377,7 +377,7 @@ export const siteContent: SiteContent = {
   productsHero: {
     badge: "Three Tiers. One Standard.",
     headline: "Three Tiers. One Standard of Quality.",
-    subheadline: "PYKK's tiered structure ensures you get exactly what your business needs — nothing more, nothing less.",
+    subline: "PYKK's tiered structure ensures you get exactly what your business needs — nothing more, nothing less.",
     backgroundImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=85",
   },
   materialsHeadline: "Standard Tiers",
@@ -385,14 +385,14 @@ export const siteContent: SiteContent = {
   blogHero: {
     badge: "SMB Web Hub",
     headline: "Insights & Perspectives",
-    subheadline: "Expert thoughts on digital presence, business logic, and web quality for local SMBs.",
+    subline: "Expert thoughts on digital presence, business logic, and web quality for local SMBs.",
     backgroundImage: "https://images.unsplash.com/photo-1512758684632-a6e8140dbf1c?auto=format&fit=crop&w=1600&q=85",
   },
 
   contactHero: {
     badge: "Let's Talk",
     headline: "Let's Talk About Your Website",
-    subheadline: "Tell us about your business and what you need. We'll get back to you within 24 hours.",
+    subline: "Tell us about your business and what you need. We'll get back to you within 24 hours.",
     backgroundImage: "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&w=1600&q=85",
   },
   faqHeadline: "Standard Revision Policy",
@@ -400,7 +400,7 @@ export const siteContent: SiteContent = {
   teamHero: {
     badge: "The Founders",
     headline: "Experience at the Helm",
-    subheadline: "50 years of combined management and product expertise powering your build.",
+    subline: "50 years of combined management and product expertise powering your build.",
     backgroundImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=85",
   },
   teamCta: {
@@ -413,14 +413,14 @@ export const siteContent: SiteContent = {
   certificationsHero: {
     badge: "Quality & Standards",
     headline: "Process Is Not a Buzzword. It Is How We Work.",
-    subheadline: "Applying international quality management standards to every web project we deliver.",
+    subline: "Applying international quality management standards to every web project we deliver.",
     backgroundImage: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1600&q=85",
   },
 
   galleryHero: {
     badge: "Service Add-ons",
     headline: "Need Something Extra? We Have It.",
-    subheadline: "Every add-on is available across all tiers. Every solution is tailored to your business goals.",
+    subline: "Every add-on is available across all tiers. Every solution is tailored to your business goals.",
     backgroundImage: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1600&q=85",
   },
   galleryCta: {
@@ -433,7 +433,7 @@ export const siteContent: SiteContent = {
   exhibitionsHero: {
     badge: "Our Process",
     headline: "A Process You Can Trust. Every Time.",
-    subheadline: "Every PYKK project follows the same documented, repeatable process.",
+    subline: "Every PYKK project follows the same documented, repeatable process.",
     backgroundImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=85",
   },
   upcomingEventsHeadline: "Revision Standards",

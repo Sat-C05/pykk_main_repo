@@ -13,6 +13,7 @@ interface EnquiryFormProps {
 const EnquiryForm: React.FC<EnquiryFormProps> = ({ whatsappNumber }) => {
   const [formData, setFormData] = useState({
     name: '',
+    businessName: '',
     phone: '',
     email: '',
     requirements: '',
@@ -72,7 +73,7 @@ const EnquiryForm: React.FC<EnquiryFormProps> = ({ whatsappNumber }) => {
             </div>
             <div className={styles.field}>
               <label htmlFor="businessName">Business Name*</label>
-              <input type="text" id="businessName" name="businessName" required value={formData.businessName || ''} onChange={handleChange} />
+              <input type="text" id="businessName" name="businessName" required value={formData.businessName} onChange={handleChange} />
             </div>
           </div>
 
