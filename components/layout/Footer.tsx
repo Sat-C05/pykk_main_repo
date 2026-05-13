@@ -19,7 +19,10 @@ const Footer: React.FC<FooterProps> = ({ company, primaryNav, secondaryNav, what
         <div className={styles.grid}>
           {/* Col 1: Brand */}
           <div className={styles.col}>
-            <h3 className={styles.brand}>{company.name}</h3>
+            <div className={styles.footerBrand}>
+              <img src="/images/logo.jpeg" alt="PYKK Logo" className={styles.footerLogo} />
+              <h3 className={styles.brand}>{company.name}</h3>
+            </div>
             <p className={styles.tagline}>{company.tagline}</p>
             <div className={styles.contactInfo}>
               <p>{company.phone}</p>

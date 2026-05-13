@@ -13,13 +13,13 @@ export const siteContent: SiteContent = {
   company: {
     name: "PYKK",
     tagline: "Professional Websites for Businesses That Mean Business.",
-    phone: "+91 00000 00000", // TODO: Add actual phone number
+    phone: "+91 8008233996", // TODO: Add actual phone number
     email: "pykk.consulting@gmail.com", // TODO: Add actual email address (no company domain yet — personal Gmail in use)
     address: "Hyderabad, Telangana", // TODO: Add Google Maps embed URL for office location once confirmed
     whatsapp: "910000000000", // TODO: Add actual WhatsApp number
     location: "Hyderabad, Telangana",
     foundedYear: 2024,
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3160407063!2d78.267959067571!3d17.4122998016429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin", 
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3160407063!2d78.267959067571!3d17.4122998016429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
   },
   primaryNav: [
     { label: "Home", href: "/" },
@@ -92,21 +92,21 @@ export const siteContent: SiteContent = {
     // PLACEHOLDER TESTIMONIALS — replace before go-live
     {
       quote: "I had no website for 12 years. PYKK built one in two weeks that actually makes us look like the serious operation we are. Three new inquiries came in the first month through the site alone.",
-      name: "Ramesh Nair", 
+      name: "Ramesh Nair",
       role: "Proprietor",
       company: "Nair Engineering Works, Nacharam",
       location: "Hyderabad",
     },
     {
       quote: "What impressed me was that they asked about my customers before they asked about my logo. The site they built actually explains what we do clearly. My clients have commented on it.",
-      name: "Kavitha Reddy", 
+      name: "Kavitha Reddy",
       role: "Director",
       company: "Reddy Facilities Management, Secunderabad",
       location: "Hyderabad",
     },
     {
       quote: "The process was completely transparent. I knew what was happening at every stage. No surprises, no extra charges. That alone made it worth it.",
-      name: "Suresh Agarwal", 
+      name: "Suresh Agarwal",
       role: "Owner",
       company: "Agarwal Industrial Supplies, Uppal",
       location: "Hyderabad",
@@ -170,18 +170,26 @@ export const siteContent: SiteContent = {
   blogPosts: [
     {
       slug: "industrial-business-web-presence",
-      title: "Why Your Industrial Business Needs More Than a WhatsApp Number",
-      category: "Strategy",
-      excerpt: "Building professional credibility in the Nacharam and Uppal industrial belts.",
-      author: "PYKK Founders", // PLACEHOLDER — replace before go-live
-      intro: "A professional website is not just a digital business card; it's a statement of capability and scale for your manufacturing firm.",
-      date: "May 2026", // PLACEHOLDER
-      readTime: "5 min read",
+      title: "How Professional Web Presence Builds Trust with Industrial Clients",
+      category: "Trust",
+      excerpt: "For industrial and B2B firms, your website isn't just a brochure—it's a validation tool for high-value contracts.",
+      author: "PYKK Strategic Team",
+      intro: "In the industrial sector, decisions aren't made on impulse. They are the result of rigorous evaluation and trust-building. Your website must reflect that same level of precision.",
+      date: "June 2026",
+      readTime: "8 min read",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
       content: [
         {
           type: 'paragraph',
-          text: "Placeholder content. Discussing how professional web presence builds trust with high-value industrial clients.", // PLACEHOLDER
+          text: "Industrial clients and B2B stakeholders are looking for specific indicators of competence. They aren't impressed by flashy animations; they are looking for technical clarity, proof of past performance, and a clear understanding of your operational capacity.",
+        },
+        {
+          type: 'paragraph',
+          text: "A structured website acts as a 24/7 representative for your business. By organizing your service capabilities into clear, manageable sections—much like our Tiered structure—you demonstrate that you value their time and understand the complexity of their requirements.",
+        },
+        {
+          type: 'paragraph',
+          text: "When a potential partner visits your site, they should find immediate evidence of your standards. Whether it is through documented processes or clear project galleries, every pixel should work toward one goal: confirming that you are the most reliable choice in the market.",
         }
       ],
     },
@@ -189,16 +197,24 @@ export const siteContent: SiteContent = {
       slug: "smb-website-brief-errors",
       title: "5 Things SMB Owners Get Wrong About Their Website Brief",
       category: "Advice",
-      excerpt: "How to save time and money by focusing on business outcomes first.",
-      author: "PYKK Founders", // PLACEHOLDER
+      excerpt: "How to save time and money by focusing on business outcomes first, rather than just aesthetics.",
+      author: "PYKK Founders",
       intro: "A great website starts with a great brief. We identify the common mistakes that lead to delays and cost overruns.",
-      date: "May 2026", // PLACEHOLDER
+      date: "May 2026",
       readTime: "7 min read",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
       content: [
         {
           type: 'paragraph',
-          text: "Placeholder content. Explaining the 'Content First' philosophy and its benefits for the client.", // PLACEHOLDER
+          text: "The most common mistake business owners make is focusing entirely on 'look and feel' before defining 'purpose and flow'. A beautiful website that doesn't guide a user toward an enquiry is a failed investment.",
+        },
+        {
+          type: 'paragraph',
+          text: "At PYKK, we insist on a 'Content First' philosophy. Why? Because the design should serve the message, not the other way around. When you approve the copy before the build begins, you eliminate the single biggest cause of project delays and last-minute rework.",
+        },
+        {
+          type: 'paragraph',
+          text: "A good brief should answer three questions: Who are we talking to? What do we want them to do? How do we prove we can do it? If your brief focuses on these outcomes, your website will naturally become a high-performing business asset.",
         }
       ]
     },
@@ -206,16 +222,24 @@ export const siteContent: SiteContent = {
       slug: "website-delivery-roi",
       title: "The Hidden ROI of a Structured Web Delivery Process",
       category: "Quality",
-      excerpt: "Why choosing a process-driven agency saves you more than just time.",
-      author: "PYKK Founders", // PLACEHOLDER
-      intro: "In web development, the process is often more important than the code. We explain how a structured approach eliminates hidden costs and rework.",
-      date: "April 2026", // PLACEHOLDER
+      excerpt: "Why choosing a process-driven agency saves you more than just time—it protects your business logic.",
+      author: "PYKK Strategic Team",
+      intro: "In web development, the process is often more important than the code. We explain how a structured approach eliminates hidden costs.",
+      date: "April 2026",
       readTime: "6 min read",
-      image: "https://images.unsplash.com/photo-1551288049-bb148328701d?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
       content: [
         {
           type: 'paragraph',
-          text: "Placeholder content. Discussing the benefits of QMS lead auditor oversight in preventing scope creep and ensuring high-quality handoffs.", // PLACEHOLDER
+          text: "Most web agencies operate in a state of 'creative chaos'. While this sounds artistic, it is a nightmare for business owners who need predictability. A lack of structure leads to scope creep, missed deadlines, and a final product that doesn't quite match the vision.",
+        },
+        {
+          type: 'paragraph',
+          text: "By applying international Quality Management Systems (QMS) standards to web delivery, we provide something rare: certainty. When every stage of the build is documented and audited, you aren't just buying a website—you are investing in a reliable delivery system.",
+        },
+        {
+          type: 'paragraph',
+          text: "The real return on investment (ROI) comes from the absence of rework. A structured handoff with full documentation means you own your digital assets completely, and your site is built on a foundation that can scale as your business grows.",
         }
       ]
     },
@@ -249,24 +273,8 @@ export const siteContent: SiteContent = {
       question: "Which tier is right for my business?",
       answer: "Tier 1 is for quick credibility. Tier 2 is for inquiry generation. Tier 3 is for market leaders needing a full conversion system.",
     },
-    {
-      question: "Can I upgrade my tier after the website is live?",
-      answer: "Absolutely. Our sites are built to be scalable. You can start with Tier 1 and move to Tier 2 or 3 as your business grows and your requirements evolve.",
-    },
-    {
-      question: "What is the standard payment structure?",
-      answer: "We typically work on a 50% advance and 50% on-completion basis. For larger Tier 3 projects, we can discuss a milestone-based payment plan.",
-    },
-    {
-      question: "Do you provide domain registration and hosting?",
-      answer: "We assist with the setup of your own domain and hosting accounts. We believe you should always own your digital assets, and we help you manage them.",
-    },
-    {
-      question: "How long does a typical project take?",
-      answer: "Tier 1 projects typically go live in 7–10 days. Tier 2 and Tier 3 projects take between 3–6 weeks depending on content readiness and complexity.",
-    },
   ],
-  materials: [ 
+  materials: [
     { name: "SEO Setup & Optimization" },
     { name: "Extra Custom Pages" },
     { name: "Professional Content Writing" },
