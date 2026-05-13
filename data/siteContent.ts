@@ -38,13 +38,13 @@ export const siteContent: SiteContent = {
   credibilityBar: {
     items: [
       { icon: "shield", text: "QMS Certified Lead Auditor" },
-      { icon: "calendar", text: "50+ Years Combined Experience" },
+      { icon: "calendar", text: "20+ Years Professional Experience" },
       { icon: "verified", text: "Structured Process-Driven Delivery" },
       { icon: "code", text: "Conversion-Focused Architecture" },
     ],
   },
   stats: [
-    { value: "50+", label: "Years of Combined Experience", description: "Management and operations depth behind every build." },
+    { value: "20+", label: "Years of Experience", description: "Management and operations depth behind every build." },
     { value: "3", label: "Quality Tiers", description: "Presence, Growth, and Authority. Scoped to your business goals." },
     { value: "100%", label: "Process-Driven Delivery", description: "QMS-certified approach. Every project, every time." },
   ],
@@ -65,7 +65,7 @@ export const siteContent: SiteContent = {
     },
     {
       name: "TIER 3 — AUTHORITY",
-      description: "A conversion machine built around your goals. Includes content writing, full SEO, company email, and Google Business setup. Best for growth-oriented businesses.",
+      description: "A conversion machine built around your goals. Includes content writing, SEO Setup, company email, and Google Business setup. Best for growth-oriented businesses.",
       image: "https://images.unsplash.com/photo-1551288049-bb148328701d?auto=format&fit=crop&w=800&q=80",
       category: "Tier 3",
       enquireLink: "/contact",
@@ -85,7 +85,7 @@ export const siteContent: SiteContent = {
     {
       icon: "engineering",
       title: "Experienced Strategy",
-      description: "50 years of management experience means your site is designed to convert visitors into customers.",
+      description: "20+ years of management experience means your site is designed to convert visitors into customers.",
     },
   ],
   testimonials: [
@@ -141,16 +141,16 @@ export const siteContent: SiteContent = {
   ],
   team: [
     {
-      name: "Founder 1 Name", // TODO: Replace placeholder founder names with actual names
+      name: "Shalini Manjusha Reddy Chinnam",
       role: "Co-Founder — Quality and Delivery",
       bio: "25+ years in product management. Certified QMS lead auditor. Brings documented process discipline to every client engagement.",
-      image: "https://placehold.co/400x400/1E6FA8/FFFFFF?text=Founder+1", // TODO: Replace placeholder team photos with actual headshots
+      image: "",
     },
     {
-      name: "Founder 2 Name", // TODO: Replace placeholder founder names with actual names
+      name: "Srinivasa Reddy Chinnam BMS",
       role: "Co-Founder — Strategy and Client Solutions",
       bio: "25+ years as independent management consultant. Worked with SMBs across manufacturing, services, and trade.",
-      image: "https://placehold.co/400x400/1E6FA8/FFFFFF?text=Founder+2", // TODO: Replace placeholder team photos with actual headshots
+      image: "",
     },
   ],
   certifications: [
@@ -161,7 +161,7 @@ export const siteContent: SiteContent = {
       description: "Documented processes, clear deliverables, and zero ambiguity at every stage of web delivery.",
     },
     {
-      name: "50 Years Business Strategy",
+      name: "20+ Years Business Strategy",
       issuingBody: "Independent Management Consulting",
       year: "Active",
       description: "Deep understanding of SMB operations ensures every site is built to solve business problems.",
@@ -290,8 +290,8 @@ export const siteContent: SiteContent = {
     { label: "Manufacturing SMB" },
   ],
   aboutParagraphs: [
-    "PYKK was founded by two independent consultants with a combined 50 years of product management and operations management experience. We have seen how businesses work from the inside — the decisions, the constraints, and the pressure to grow with limited resources.",
-    "That experience is what makes our websites different. We do not just design pages. We structure a conversion flow — what a visitor sees first, what builds trust, and what makes them pick up the phone or fill the enquiry form.",
+    "PYKK was founded by senior consultants with 20+ years of deep product management and operations management experience. We have seen how businesses work from the inside — the decisions, the constraints, and the pressure to grow with limited resources.",
+    "That depth of experience is what makes our websites different. We do not just design pages. We structure a conversion flow — what a visitor sees first, what builds trust, and what makes them pick up the phone or fill the enquiry form.",
     "And because one of our founders is a certified QMS lead auditor, every engagement follows a documented process. Scope defined upfront. Content approved before build. Revisions handled cleanly. Handoff with full documentation. No exceptions."
   ],
   galleryImages: [
@@ -302,7 +302,7 @@ export const siteContent: SiteContent = {
   ],
   credibilityPoints: [
     { icon: "verified", text: "QMS-Certified Leadership", subline: "Documented processes ensure highest standards of delivery." },
-    { icon: "psychology", text: "50+ Years Combined Expertise", subline: "Designing around business outcomes and conversion logic." },
+    { icon: "psychology", text: "20+ Years of Experience", subline: "Designing around business outcomes and conversion logic." },
     { icon: "build", text: "Fast, Reliable Execution", subline: "High-performance builds optimized for mobile and speed." },
   ],
 
@@ -311,7 +311,7 @@ export const siteContent: SiteContent = {
     badge: "Web Development Agency",
     headline: "Professional Websites for Businesses That Mean Business.",
     subheadline: "PYKK builds conversion-focused websites for SMBs across Hyderabad and Telangana. Fast delivery. Structured process. Results you can measure.",
-    trustSignals: "50+ Years Combined Experience · QMS Lead Auditor Certified",
+    trustSignals: "20+ Years of Experience · QMS Lead Auditor Certified",
     backgroundImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
     primaryButton: { label: "See Our Packages", href: "/products" },
     secondaryButton: { label: "Talk to Us", href: "/contact" },
@@ -332,7 +332,7 @@ export const siteContent: SiteContent = {
   aboutHero: {
     badge: "Built by Experts",
     headline: "Built by People Who Understand Business First",
-    subline: "50 years of management depth applied to every line of code we write.",
+    subline: "20+ years of management depth applied to every line of code we write.",
     backgroundImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=85",
   },
   aboutStoryHeadline: "The PYKK Philosophy",
@@ -408,7 +408,7 @@ export const siteContent: SiteContent = {
   teamHero: {
     badge: "The Founders",
     headline: "Experience at the Helm",
-    subline: "50 years of combined management and product expertise powering your build.",
+    subline: "20+ years of leadership and product expertise powering your build.",
     backgroundImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=85",
   },
   teamCta: {

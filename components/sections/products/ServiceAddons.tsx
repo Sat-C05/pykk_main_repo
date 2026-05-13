@@ -9,7 +9,7 @@ interface Addon {
 
 const addons: Addon[] = [
   { name: "SEO Setup", description: "Meta tags, headings, image alt text, and speed optimization so Google can find and rank your site" },
-  { name: "Extra Pages", description: "Additional pages beyond your tier&apos;s default structure — built to the same standard" },
+  { name: "Extra Pages", description: "Additional pages beyond your tier's default structure — built to the same standard" },
   { name: "Content Writing", description: "Professional copy written for your business, AI-assisted and reviewed for accuracy and tone" },
   { name: "Google Business Profile Setup", description: "Your business on Google Maps, fully filled out and verified — visible to local searchers" },
   { name: "Company Email Setup", description: "A professional email at your own domain (you@yourcompany.com) instead of Gmail" },

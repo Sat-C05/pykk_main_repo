@@ -21,7 +21,7 @@ const homeTiers = [
     label: 'Tier 3',
     name: 'Authority',
     description: 'A comprehensive conversion system for market leaders. Engineered for acquisition.',
-    highlights: ['Full SEO Setup', 'Content Writing Assistance', 'Company Domain Email'],
+    highlights: ['SEO Setup', 'Content Writing Assistance', 'Company Domain Email'],
     cta: 'View Full Tier 3 Details'
   }
 ];

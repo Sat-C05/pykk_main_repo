@@ -60,7 +60,7 @@ const tiers: Tier[] = [
       'Conversion-focused site architecture — designed around a specific business goal, not just pages',
       'Custom color and typography system derived from your brand',
       'Content writing assistance — AI-assisted, reviewed and refined for your business',
-      'Full SEO setup — meta tags, headings, image alt text, page speed optimization',
+      'SEO setup — meta tags, headings, image alt text, page speed optimization',
       'Google Search Console setup and sitemap submission',
       'Google Business Profile setup',
       'Company domain email (you@yourcompany.com)',
@@ -94,7 +94,7 @@ const ServiceTiers: React.FC = () => {
                     className={styles.expandButton} 
                     onClick={toggleAll}
                   >
-                    {allExpanded ? 'Hide All Details' : 'See What&apos;s Included'}
+                    {allExpanded ? 'Hide All Details' : "See What's Included"}
                   </button>
                 </div>
 

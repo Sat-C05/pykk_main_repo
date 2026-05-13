@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About PYKK — Experts in Knowledge Capital',
-  description: 'Learn about the founders and the philosophy behind PYKK, a Hyderabad-based consulting firm with 50 years of combined experience.',
+  description: 'Learn about the founders and the philosophy behind PYKK, a Hyderabad-based consulting firm with 20+ years of experience.',
 };
 
 export default function AboutPage() {
